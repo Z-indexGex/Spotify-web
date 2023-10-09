@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url(' https://fonts.cdnfonts.com/css/helvetica-neue-5 ');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    backdrop-filter: blur(4px);
+}
+
+.menu-logo {
+    padding: 7px 10px;
+    position: relative;
+    left: -65px;
+}
+
+.fa-brands {
+    font-size: 33px;
+    position: relative;
+    top: 5px;
+}
+
+.menu-logo a {
+    font-family: poppins;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: .4s;
+}
+
+
+.menu-logo span {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.menu-nav {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: -100px;
+    
+}
+.til {
+    color: #fff;
+    font-size: 10px;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 12px;
+    font-family: poppins;
+    color: #fff;
+    transition: .1s;
+    font-weight: 700;
+}
+
+.menu-nav a:hover{
+    color: #18d060;
+} 
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+    background: #1D75DE;
+    display: grid;
+    place-content: center;
+    
+}
+
+.banner {
+    width: 640px;
+    height: 150px;
+    margin-top: 100PX;
+    font-family: poppins;
+    margin-left: -120px;
+}
+
+.span1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Gabarito', cursive;
+    color: #fff;
+}
+
+.span2 {
+    font-size: 16px;
+    font-family:poppins;
+    font-weight: 500;
+    color: #fff;
+}
+
+.box-enlaces {
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    margin-left: -120px;
+}
+
+
+
+.a-btn-1 {
+    text-decoration: none;
+    padding: 10px 25px ;
+    border-radius: 20px;
+    background: #000;
+    font-size: 15px;
+    font-family: 'Gabarito', cursive;
+    font-weight: 600;
+    color: #fff;
+}
+
+.a-btn-1:hover {
+    text-decoration: none;
+    padding: 11px 26px ;
+    border-radius: 20px;
+    background: #1a1919;
+    font-size: 15px;
+    font-family: 'Gabarito', cursive;
+    font-weight: 600;
+    color: #fff;
+}
+
+.a-btn-2 {
+    text-decoration: none;
+    padding: 10px 25px ;
+    margin-left: 6px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: 'Gabarito', cursive;
+    font-weight: 600;
+    
+        
+}
+
+.a-btn-2:hover {
+    text-decoration: none;
+    padding: 11px 26px ;
+    margin-left: 6px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: 'Gabarito', cursive;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.212);
+}
+
+.box-text {
+    width: 750px;
+    height: 18px;
+    font-size: 10px;
+    font-family: 'Gabarito', cursive;
+    margin-left: -120px;
+}
+
+.box-text a {
+    color: #fff;
+}
+
+.box-text span {
+    color: #fff;
+}
+
+.about-container {
+    width: 100%;
+    height: 470px;
+    background: #fff;
+    display: grid;
+    place-content: center;
+    
+}
+
+.box-title-about {
+    width: 430px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    font-size: 30px;
+    font-family: "Gabarito", consolas;
+    font-weight: 600;
+    margin-top: -140px;
+    margin-left: 220px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box-1 {
+    width: 190px;
+    height: 80px;
+    text-align: center;
+    font-family: "Gabarito", consolas;
+    position: relative;
+    
+}
+
+.box-2 {
+    width: 190px;
+    height: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Gabarito", consolas;
+    position: relative;
+}
+
+
+.box-3 {
+    width: 190px;
+    height: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Gabarito", consolas;
+    position: relative;
+}
+
+.box-4 {
+    width: 190px;
+    height: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Gabarito", consolas;
+    position: relative;
+}
+
+.span-title-code {
+    font-weight: 700;
+}
+
+.img-dimentions {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #ebe8e8d2 ;
+    position: relative;
+    top: -40px;
+    left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.planes-container {
+    width: 100%;
+    height: 980px;
+    background: #ebe8e8d2;
+}
+
+.planes-subtitle {
+    width: 455px;
+    height: 70px;
+    font-family: "Gabarito", consolas;
+    text-align: center;
+    position: relative;
+    top: 73px;
+    left: 460px;
+}
+
+.title-premium {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.title-span-premium {
+    font-size: 16px;
+}
+
+.planes-started {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-planes-1 {
+    width: 285px;
+    height: 650px;
+    position: relative;
+    top: 130px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+.box-planes-2 {
+    width: 285px;
+    height: 650px;
+    position: relative;
+    top: 130px;
+    left: 15px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+.box-planes-3 {
+    width: 285px;
+    height: 650px;
+    position: relative;
+    top: 130px;
+    left: 30px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+.box-planes-4 {
+    width: 285px;
+    height: 650px;
+    position: relative;
+    top: 130px;
+    left: 45px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+.span-t1 {
+    padding: 5px 8px  5px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #0D72EA;
+    color: #fff;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.span-t2 {
+    padding: 5px 8px  5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    background: transparent;
+    color: #1778df;
+    border: 1px solid #1880f0;
+    font-weight: 500;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.span-t2-box-3 {
+    padding: 5px 8px  5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    background: transparent;
+    color: #1778df;
+    border: 1px solid #1880f0;
+    font-weight: 500;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.title-span1 {
+    position: relative;
+    top: 55px;
+    left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:  "Gabarito", consolas;
+}
+
+.title-span2 {
+    position: relative;
+    top: 55px;
+    left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:  "Gabarito", consolas;
+}
+
+.title-span3 {
+    position: relative;
+    top: 72px;
+    left: -190px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:  "Gabarito", consolas;
+}
+
+.title-span4 {
+    position: relative;
+    top: 53px;
+    left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:  "Gabarito", consolas;
+}
+
+.p-description-1 {
+    font-family: "Gabarito", consolas;
+    font-size: 16px;
+    text-align: start;
+    position: relative;
+    top: 45px;
+    left: 15px;
+}
+
+.p-description-2 {
+    font-family:  "Gabarito", consolas;
+    font-size: 16px;
+    text-align: start;
+    position: relative;
+    top: 45px;
+    left: 15px;
+}
+
+.p-description-3 {
+    font-family:  "Gabarito", consolas;
+    font-size: 16px;
+    text-align: start;
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+
+.p-description-4 {
+    font-family:  "Gabarito", consolas;
+    font-size: 16px;
+    text-align: start;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+.hr-1 {
+    width: 250px;
+    position: relative;
+    top: 48px;
+
+}
+
+.hr-2 {
+    width: 250px;
+    position: relative;
+    top: 48px;
+}
+
+.hr-3 {
+    width: 250px;
+    position: relative;
+    top: 65px;
+}
+
+.hr-4 {
+    width: 250px;
+    position: relative;
+    top: 46px;
+}
+
+.fa-solid {
+    font-size: 27px;
+    position: relative;
+    left: 18px;
+    top: 60px;
+}
+
+.span-p-1 {
+    text-align: start;
+    position: relative;
+    display: block;
+    left: 60px;
+    top: 30px;
+    font-size: 16px;
+    font-family:  "Gabarito", consolas;
+}
+
+.span-p-2 {
+    text-align: start;
+    position: relative;
+    display: block;
+    left: 60px;
+    top: 29px;
+    font-size: 16px;
+    font-family:  "Gabarito", consolas;
+}
+
+.span-p-3 {
+    text-align: start;
+    position: relative;
+    display: block;
+    left: 60px;
+    top: 46px;
+    font-size: 16px;
+    font-family:  "Gabarito", consolas;
+}
+
+.span-p-4 {
+    text-align: start;
+    position: relative;
+    display: block;
+    left: 60px;
+    top: 29px;
+    font-size: 16px;
+    font-family:  "Gabarito", consolas;
+}
+
+.a-btn-start-1 {
+    padding: 10px 85px 10px 85px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 68px;
+    left: 24px;
+    transition: .1s;
+}
+
+.a-btn-start-2 {
+    padding: 10px 85px 10px 85px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 65px;
+    left: 24px;
+    transition: 0.3s;
+}
+
+.a-btn-start-3 {
+    padding: 10px 85px 10px 85px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 145px;
+    left: 24px;
+    transition: 0.3s;
+}
+
+.a-btn-start-4 {
+    padding: 10px 85px 10px 85px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 80px;
+    left: 24px;
+    transition: 0.3s;
+}
+
+.a-btn-start-1:hover {
+    padding: 11px 86px 11px 86px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 68px;
+    left: 24px;
+} 
+
+.a-btn-start-2:hover {
+    padding: 11px 86px 11px 86px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 65px;
+    left: 24px;
+} 
+
+.a-btn-start-3:hover {
+    padding: 11px 86px 11px 86px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 145px;
+    left: 24px;
+} 
+
+.a-btn-start-4:hover {
+    padding: 11px 86px 11px 86px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+    background: #000;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    position: relative;
+    top: 80px;
+    left: 24px;
+} 
+
+.box-terminos-1 {
+    position: relative;
+    top: 95px;
+    left: 28px;
+    width: 258px;
+    height: 50px;
+    text-align: start;
+}
+
+.box-terminos-2 {
+    position: relative;
+    top: 83px;
+    left: 27px;
+    width: 255px;
+    height: 50px;
+    text-align: start;
+}
+
+.box-terminos-3 {
+    position: relative;
+    top: 170px;
+    left: 26px;
+    width: 250px;
+    height: 50px;
+    text-align: start;
+}
+
+.box-terminos-4 {
+    position: relative;
+    top: 108px;
+    left: 26px;
+    width: 250px;
+    height: 50px;
+    text-align: start;
+}
+.a-terminos {
+    color: #424242;
+    font-size: 12px;
+    font-family:  "Gabarito", consolas;
+}
+
+.span-terminos {
+    font-family:  "Gabarito", consolas;
+    font-size: 12px;
+    color: #424242;
+}
+.footer-container {
+    width: 100%;
+    height: 555px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #000;
+}
+
+.logo-footer-spotify {
+    width: 135px;
+    height: 50px;
+    top: 80px;
+    left: 100px;
+    position: relative;
+}
+
+.box-company {
+    width: 210px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 12%;
+    text-align: start;
+}
+
+.title-company {
+    color: #fff;
+    font-family:  "Gabarito", consolas;
+    font-size: 14px;
+    color: #b9b9b9;
+    padding-bottom: 18px;
+}
+
+.a-comp {
+    color: #fff;
+    text-decoration: none;
+    font-family:  "Gabarito", consolas;
+    padding-bottom: 22px;
+    transition: .1s;
+}
+
+.a-comp:hover {
+    color: #18d060;
+}
+
+.box-comunidades {
+    width: 210px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: start;
+    color: #fff;
+    top: 100px;
+    left: 19%;
+}
+
+.title-comu {
+    font-family:  "Gabarito", consolas;
+    font-size: 14px;
+    color: #b9b9b9;
+    padding-bottom: 18px;
+}
+
+
+
+
+.box-enlc {
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    font-family:  "Gabarito", consolas;
+    top: 100px;
+    left: 25%;
+}
+
+.title-enlc {
+    padding-bottom: 20px;
+    color: #b9b9b9;
+    font-family:  "Gabarito", consolas;
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+.box-apps {
+    width: 350px;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    position: relative;
+    top:  17%;
+    right: -44%;
+}
+
+.icon {
+    font-size: 24px;
+    background-color: #2e2e2e;
+    margin-left: 15px;
+    border-radius: 50%;
+    padding: 14px 14px 14px 14px;
+    transition: .2s;
+}
+
+.icon:hover {
+    color: #18d060;
+}
+
+
+.container-terminos {
+    width: 1300px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 84%;
+    left: -40%;
+}
+
+.a-terminos-privacity {
+    color: #a7a6a6;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Gabarito", consolas;
+    padding-left: 15px;
+    transition: .2s;
+}
+
+.a-terminos-privacity:hover {
+    color: #18d060;
+}
+
+.box-autors {
+    width: 250px;
+    height: 60px;
+    position: relative;
+    right: 5%;
+    top: 72%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.a-autors {
+    color: #a7a6a6;
+    text-decoration: none;
+    font-family: "Gabarito", consolas;
+    transition: .1s;
+    
+}
+
+.a-autors:hover {
+    color: #18d060;
+}
+
+.span-autors {
+    color: #a7a6a6;
+    font-family: "Gabarito", consolas;
+    font-size: 13px;
+}
